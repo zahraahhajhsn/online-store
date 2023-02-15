@@ -2,6 +2,7 @@
 session_start(); //start session at th begining
 if(isset($_SESSION['loggedin']) && isset($_SESSION['admin']))//if user is admin
 {
+	
 	$loggedin = $_SESSION['loggedin'];//store session values in variables
 	$isadmin=$_SESSION['admin'];
 	$loggedin = $_SESSION['loggedin'];
